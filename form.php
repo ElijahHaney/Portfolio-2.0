@@ -4,6 +4,7 @@
 
 <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bapple</title>
     <link rel="stylesheet" href="Style.css">
@@ -55,7 +56,13 @@
         <input type="submit" value="Submit" class="submit">
 
       </form>
-      
+      <?php
+if( isset($_POST['firstname'] ) && isset( $_POST['lastname'] )  && isset($_POST['email']))
+{
+    $txt= $_POST['firstname'].' - '.$_POST['lastname'] .' - '.$_POST['email'].' - '.$_POST['comments']. PHP_EOL; 
+    file_put_contents('submit.txt', $txt, FILE_APPEND);
+}
+?>
 </div>
 <footer>
     
