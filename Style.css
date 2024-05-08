@@ -252,11 +252,7 @@ grid-template-rows: 12vw 6vw 6vw;
 }
 
 .up {
-    animation: fromLeft ease 2s;
-    -webkit-animation: fromLeft ease 2s;
-    -moz-animation: fromLeft ease 2s;
-    -o-animation: fromLeft ease 2s;
-    -ms-animation: fromLeft ease 2s;
+
     width: 100%;
 }
 
@@ -775,4 +771,12 @@ For mobile:
     .split{
         width: 50vw;
     }
+  }
+
+  .up{
+    animation: fromLeft ease 2s;
+    -webkit-animation: fromLeft ease 2s;
+    -moz-animation: fromLeft ease 2s;
+    -o-animation: fromLeft ease 2s;
+    -ms-animation: fromLeft ease 2s;
   }
