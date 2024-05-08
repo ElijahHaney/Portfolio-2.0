@@ -25,7 +25,7 @@
             <a href="Contact.html">Contact</a>
         </div>
         <div class="logo">
-            <img src="CWLogo.png" class="logo-fluid">
+            <img src="CWLogo.png" class="logo-fluid" alt="logo image">
         </div>
     </header>
 <div class="headerBox">
@@ -35,21 +35,21 @@
 </div>
 <div class="containForm">
     <script src="Test.js"></script>
-    <form name="contactForm" action="form.php" onsubmit="return validateForm()" method="post" target="submit.txt" required>
+    <form name="contactForm" action="Thank.html" onsubmit="return validateForm()" method="get">
         <div class="formEl">
         <label for="fname" class="formText">First Name:</label>
-        <input type="text" id="fname" class="split" name="firstname" placeholder="Your first name:">
+        <input type="text" id="fname" class="split" name="firstname" placeholder="Your first name:"  required>
     </div>
     <div class="formEl">
         <label for="lname" class="formText">Last Name:</label>
-        <input type="text" id="lname" class="split" name="lastname" placeholder="Your last name:">
+        <input type="text" id="lname" class="split" name="lastname" placeholder="Your last name:"  required>
 </div>
 <div class="formEl">
             <label for="email" class="formText">E-Mail:</label>
-        <input type="text" id="email" class="split" name="email" placeholder="example@example.com">
+        <input type="text" id="email" class="split" name="email" placeholder="example@example.com"  required>
 </div>
 <div class="formEl">      
-        <label for="Comments" class="formText">Comments:</label>
+        <label for="Comments" class="formText">Comments(optional):</label>
         <input type="text" id="Comments" name="comments" class="split" placeholder="comments:">
 </div>  
         <input type="submit" value="Submit" class="submit">
