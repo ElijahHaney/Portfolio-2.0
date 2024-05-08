@@ -4,7 +4,6 @@
 
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bapple</title>
     <link rel="stylesheet" href="Style.css">
@@ -13,12 +12,13 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
+Photo by Piccinng: https://www.pexels.com/photo/photo-of-skyline-at-night-3075993/ 
 </head>
 
 <body>
     <header>
         <div class="navigation" >
-            <a href="index.html"  class="active">Home</a>
+            <a href="index.html" class="active">Home</a>
             <a href="Research.html">Research</a>
             <a href="Objective.html">Objective</a>
             <a href="Blog.html">Blog</a>
@@ -31,7 +31,8 @@
     </header>
 <div class="headerBox">
     <H1 class="BigText">
-       Contact Me
+       Thank You!!!<br>
+       Your submission is being processed
     </H1>
 </div>
 <div class="containForm">
@@ -64,33 +65,7 @@ if( isset($_POST['firstname'] ) && isset( $_POST['lastname'] )  && isset($_POST[
 }
 ?>
 </div>
-<footer>
-    
-
-    <div class="Block item1">
-Phone: 111-222-33-44
-    </div>
-    <div class="Block item2">
-
+    <div class="TopB">
+        <a href="index.html" class="Top whiteText">Return Home</a>
         </div>
-    <div class="Block item3">
-    Site by: Elijah Haney
-    </div>
-    <div class="Block item4">
-Email: 128778@mylcti.org
-    </div>
-    <div class="Block item5">
-        cc rights reserved
-    </div>
-    <div class="Block item6">
-   Graphics by: Elijah Haney, and Pexels
-    </div>
-    <div class="Block item7">
-    Address:     4500 Education Park Dr, Schnecksville, PA 18078
-         </div>
-         <div class="Block item8">
-            code by: Elijah Haney
-         </div>
-</footer>
-
-</html>
+</body>
