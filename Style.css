@@ -335,7 +335,7 @@ border-radius: 5px;
 }
 
 .split{
-width: 50vw;
+width: 80vw;
 height: 5vh;
 margin-bottom: 1vw;
 background-color: white;
@@ -771,5 +771,8 @@ For mobile:
     #CallToA button:hover {
         background-color: #fff;
         color: #111;
+    }
+    .split{
+        width: 50vw;
     }
   }
