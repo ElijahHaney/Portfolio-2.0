@@ -771,7 +771,7 @@ For mobile:
     .split{
         width: 50vw;
     }
-  }
+  
 
   .up{
     animation: fromLeft ease 2s;
@@ -779,4 +779,5 @@ For mobile:
     -moz-animation: fromLeft ease 2s;
     -o-animation: fromLeft ease 2s;
     -ms-animation: fromLeft ease 2s;
+  }
   }
